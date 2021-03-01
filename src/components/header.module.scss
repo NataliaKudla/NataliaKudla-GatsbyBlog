@@ -8,15 +8,25 @@
   text-decoration: none;
 }
 
+.nav_list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_item {
+  padding-right: 1rem;
+}
+
 .link {
   color: #0052cc;
   text-decoration: none;
 }
 
-.nav_list {
-  display: flex;
-  list-style-type: none;
+.link:hover {
+  color: #666666;
 }
-.nav_item {
-  padding-right: 1rem;
+
+.active_link {
+  font-weight: bold;
+  color: #053e94;
 }
