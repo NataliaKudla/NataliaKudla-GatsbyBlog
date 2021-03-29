@@ -5,6 +5,8 @@ date: "2021-03-01"
 
 Blog solution in Gatsby Bootcamp
 
+!['Gatsby Logo'](./gatsbyLogo.png)
+
 ## Topics Covered
 
 1. Gatsby

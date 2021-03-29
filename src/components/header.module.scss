@@ -1,9 +1,15 @@
+.headerContainer {
+  margin: 0 0 2rem;
+}
+
 .header {
-  padding: 1rem 0 3rem;
+  padding: 1rem 2rem 1rem;
+  margin-bottom: 3rem;
+  background-color: #468faf;
 }
 
 .title {
-  color: #000000;
+  color: #ffffff;
   font-size: 3rem;
   text-decoration: none;
 }
@@ -18,7 +24,7 @@
 }
 
 .link {
-  color: #0052cc;
+  color: #a9d6e5;
   text-decoration: none;
 }
 
@@ -28,5 +34,5 @@
 
 .active_link {
   font-weight: bold;
-  color: #053e94;
+  color: #014f86;
 }
