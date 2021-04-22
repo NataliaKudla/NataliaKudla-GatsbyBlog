@@ -11,6 +11,8 @@ module.exports = {
     author: "Natalia Kudła",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
+
     {
       resolve: "gatsby-source-contentful",
       options: {
