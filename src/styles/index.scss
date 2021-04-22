@@ -214,16 +214,19 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+p {
+  margin: 1rem 0;
+}
 img {
   max-width: 100%;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 1.45rem;
+  margin-bottom: 1.45rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-bottom: 1.45rem;
@@ -287,11 +290,11 @@ h6 {
 }
 
 ul {
-  list-style-position: outside;
+  list-style-position: inside;
   list-style-image: none;
 }
 ol {
-  list-style-position: outside;
+  list-style-position: inside;
   list-style-image: none;
 }
 
